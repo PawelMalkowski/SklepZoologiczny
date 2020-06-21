@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Api", "SklepZoologiczny.Api\SklepZoologiczny.Api.csproj", "{D08FB171-4866-4611-A6A0-0926013C017F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Common", "SklepZoologiczny.Common\SklepZoologiczny.Common.csproj", "{DAE2A52E-D093-4399-9142-D132392B4FCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Data.Sql", "SklepZoologiczny.Data.Sql\SklepZoologiczny.Data.Sql.csproj", "{B9166AE6-24A8-4A62-8578-7667BEA059F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Domain", "SklepZoologiczny.Domain\SklepZoologiczny.Domain.csproj", "{D0C32AF9-94D9-4FD0-8A26-E852246DCA8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.IData", "SklepZoologiczny.IData\SklepZoologiczny.IData.csproj", "{C1F73955-435A-4CCA-8D2C-2368E24FEA7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Infrastructure", "SklepZoologiczny.Infrastructure\SklepZoologiczny.Infrastructure.csproj", "{AE4E5137-4B08-4654-BFB1-229A01E6B307}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.IServices", "SklepZoologiczny.IServices\SklepZoologiczny.IServices.csproj", "{184B3E74-EC96-4FB7-A7C1-E6B71153FADA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Services", "SklepZoologiczny.Services\SklepZoologiczny.Services.csproj", "{3C119904-2380-427C-B154-2AC314D5D566}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Data.Sql.Tests", "Tests\Foodly.Data.Sql.Tests\SklepZoologiczny.Data.Sql.Tests.csproj", "{62115537-63E5-4FFC-9261-63802F279EEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Domain.Tests", "Tests\Foodly.Domain.Tests\SklepZoologiczny.Domain.Tests.csproj", "{38DE6F20-8EC7-4CE3-8F5C-2053A5533D6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SklepZoologiczny.Services.Tests", "Tests\SklepZoologiczny.Services.Tests\SklepZoologiczny.Services.Tests.csproj", "{67A9AB38-EC7B-4CAD-9DBC-F88B38D836EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D08FB171-4866-4611-A6A0-0926013C017F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08FB171-4866-4611-A6A0-0926013C017F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08FB171-4866-4611-A6A0-0926013C017F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08FB171-4866-4611-A6A0-0926013C017F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE2A52E-D093-4399-9142-D132392B4FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE2A52E-D093-4399-9142-D132392B4FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE2A52E-D093-4399-9142-D132392B4FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE2A52E-D093-4399-9142-D132392B4FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9166AE6-24A8-4A62-8578-7667BEA059F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9166AE6-24A8-4A62-8578-7667BEA059F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9166AE6-24A8-4A62-8578-7667BEA059F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9166AE6-24A8-4A62-8578-7667BEA059F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C32AF9-94D9-4FD0-8A26-E852246DCA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C32AF9-94D9-4FD0-8A26-E852246DCA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C32AF9-94D9-4FD0-8A26-E852246DCA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C32AF9-94D9-4FD0-8A26-E852246DCA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1F73955-435A-4CCA-8D2C-2368E24FEA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F73955-435A-4CCA-8D2C-2368E24FEA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F73955-435A-4CCA-8D2C-2368E24FEA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F73955-435A-4CCA-8D2C-2368E24FEA7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4E5137-4B08-4654-BFB1-229A01E6B307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4E5137-4B08-4654-BFB1-229A01E6B307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4E5137-4B08-4654-BFB1-229A01E6B307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4E5137-4B08-4654-BFB1-229A01E6B307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{184B3E74-EC96-4FB7-A7C1-E6B71153FADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184B3E74-EC96-4FB7-A7C1-E6B71153FADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184B3E74-EC96-4FB7-A7C1-E6B71153FADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184B3E74-EC96-4FB7-A7C1-E6B71153FADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C119904-2380-427C-B154-2AC314D5D566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C119904-2380-427C-B154-2AC314D5D566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C119904-2380-427C-B154-2AC314D5D566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C119904-2380-427C-B154-2AC314D5D566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62115537-63E5-4FFC-9261-63802F279EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62115537-63E5-4FFC-9261-63802F279EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62115537-63E5-4FFC-9261-63802F279EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62115537-63E5-4FFC-9261-63802F279EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DE6F20-8EC7-4CE3-8F5C-2053A5533D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DE6F20-8EC7-4CE3-8F5C-2053A5533D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DE6F20-8EC7-4CE3-8F5C-2053A5533D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DE6F20-8EC7-4CE3-8F5C-2053A5533D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67A9AB38-EC7B-4CAD-9DBC-F88B38D836EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67A9AB38-EC7B-4CAD-9DBC-F88B38D836EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67A9AB38-EC7B-4CAD-9DBC-F88B38D836EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67A9AB38-EC7B-4CAD-9DBC-F88B38D836EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FAF41B8-D7B5-42F1-93A3-47740A284BC4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Nowy folder\**" />
+      <EmbeddedResource Remove="Nowy folder\**" />
+      <None Remove="Nowy folder\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Post" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SklepZoologiczny.Common\SklepZoologiczny.Common.csproj" />
+    </ItemGroup>
+
+</Project>
